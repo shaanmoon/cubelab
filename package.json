@@ -1,0 +1,36 @@
+{
+  "name": "cubelab-v2",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@moishy/algsets": "0.3.3",
+    "@moishy/cfop": "0.4.0",
+    "@moishy/cubing-core": "0.3.3",
+    "cubing": "^0.66.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rxjs": "^7.8.2",
+    "smartcube-web-bluetooth": "github:poliva/smartcube-web-bluetooth",
+    "@moishy/steps": "0.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.2.0",
+    "vitest": "^3.2.0",
+    "eslint": "^9.0.0",
+    "@eslint/js": "^9.0.0",
+    "typescript-eslint": "^8.0.0",
+    "globals": "^16.0.0"
+  }
+}
